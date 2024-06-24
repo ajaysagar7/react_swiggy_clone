@@ -57,7 +57,7 @@ const Header = () => {
   return (
     <>
     {/* SIDEBAR */}
-    <div className="w-full h-full fixed black-overlay duration-500" onClick={hideToggle} style={
+    <div className="w-full px-10 h-full mt-5 fixed black-overlay duration-500" onClick={hideToggle} style={
         {opacity: toggle ? 1 : 0,visibility: toggle ? 'visible' : 'hidden'}
     }>
         {/* SIDEBAR DIV */}
@@ -77,7 +77,7 @@ const Header = () => {
 
                 </div>
                 {/* TABS */}
-                <div className="nav-tabs flex  gap-10  ">
+                <div className="nav-tabs flex  gap-10 pr-10  ">
                     {
                         navItems.map((item,index ) => {
                             return (
